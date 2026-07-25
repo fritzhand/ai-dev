@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "title": "AI Dev",
+  "tagline": "Build a landing page. Build your app. Understand every step.",
+  "description": "A project-first course for planning, building, checking, and shipping with AI.",
+  "basePath": "/ai-dev/",
+  "siteUrl": "https://fritzhand.github.io/ai-dev/",
+  "repoUrl": "https://github.com/fritzhand/ai-dev",
+  "contentRoots": [
+    "lessons",
+    "instructor",
+    "project-templates",
+    "reference"
+  ],
+  "routes": [
+    {
+      "id": "landing-page",
+      "title": "Build a landing page",
+      "description": "Go from source material to a reviewed Astro site on Vercel.",
+      "start": "lessons/04-project-landing-page/INDEX.md",
+      "kind": "project"
+    },
+    {
+      "id": "app",
+      "title": "Build your app",
+      "description": "Turn your own PRD into one authenticated, tested vertical slice.",
+      "start": "lessons/05-project-app/INDEX.md",
+      "kind": "project"
+    },
+    {
+      "id": "workshop",
+      "title": "Teach the workshop",
+      "description": "Run the landing-page project in 120 minutes with recovery routes.",
+      "start": "instructor/landing-page-120-minutes.md",
+      "kind": "instructor"
+    },
+    {
+      "id": "reference",
+      "title": "Browse the reference",
+      "description": "Open the smallest explanation needed for the current step.",
+      "start": "lessons/INDEX.md",
+      "kind": "reference"
+    }
+  ],
+  "parts": [
+    {
+      "id": "01",
+      "title": "What AI is",
+      "path": "lessons/01-what-ai-is",
+      "description": "Models, training, context, cost, and adaptation."
+    },
+    {
+      "id": "02",
+      "title": "Where you use it",
+      "path": "lessons/02-where-you-use-it",
+      "description": "Chat, workspaces, connectors, APIs, and permissions."
+    },
+    {
+      "id": "03",
+      "title": "The machine",
+      "path": "lessons/03-the-machine",
+      "description": "Terminal, editor, runtimes, Git, GitHub, files, and the web stack."
+    },
+    {
+      "id": "04",
+      "title": "Project: a landing page",
+      "path": "lessons/04-project-landing-page",
+      "description": "Brief, knowledge base, design, plan, Astro build, review, and deployment."
+    },
+    {
+      "id": "05",
+      "title": "Project: an app",
+      "path": "lessons/05-project-app",
+      "description": "Your PRD, a tested template, Supabase, Google sign-in, one complete workflow, and release."
+    },
+    {
+      "id": "06",
+      "title": "Doing it well",
+      "path": "lessons/06-doing-it-well",
+      "description": "Approval gates, secrets, context, evaluation, cost, rollback, and maintenance."
+    }
+  ]
+}
