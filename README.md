@@ -1,4 +1,4 @@
-# AI Dev
+# AI Dev.
 
 Learn how to build with AI by completing two real projects:
 
