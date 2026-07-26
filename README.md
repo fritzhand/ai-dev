@@ -327,7 +327,7 @@ The site provides:
 - prerequisite and lesson metadata;
 - responsive tables, figures, and layouts;
 - a full-size lightbox for the 31 infographics;
-- direct links from every visual to its prompt and review record;
+- a prompt-and-review link on every infographic-library entry;
 - Open Graph, sitemap, and 404 output for the GitHub Pages base path.
 
 The Markdown files in this repository are the source. Every file under a
