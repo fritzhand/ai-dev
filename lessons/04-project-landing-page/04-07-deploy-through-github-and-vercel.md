@@ -1,10 +1,14 @@
 ---
 summary: Push the reviewed landing-page commit to GitHub, import it into Vercel, and verify the production result.
 requires: [04-06-review-and-fix-locally, 03-05-github-repositories-and-review]
-infographics: []
+infographics: [how-a-website-actually-goes-live, vercel-deployment-chain]
 ---
 
 # Deploy through GitHub and Vercel
+
+![A common path moves from local source through Git, build, hosting, and DNS to a site visitor.](/infographics/how-a-website-actually-goes-live.webp)
+
+![A connected Git repository produces Vercel preview and production deployments, with a review gate and failed-build loop.](/infographics/vercel-deployment-chain.webp)
 
 **Requires:** A reviewed commit, a GitHub repository with intentional
 visibility, a Vercel account, and authority to create a production deployment.

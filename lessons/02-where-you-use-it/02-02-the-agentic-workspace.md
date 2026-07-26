@@ -1,10 +1,12 @@
 ---
 summary: Supervise an agent through a bounded plan, action, observation, and verification loop with a clear stop condition.
 requires: [02-01-same-model-different-surfaces]
-infographics: []
+infographics: [what-agentic-actually-means]
 ---
 
 # Plan, act, observe, check
+
+![A one-turn assistant is contrasted with an agent that plans, acts, observes, and checks inside a controlled loop.](/infographics/what-agentic-actually-means.webp)
 
 **Requires:** A project folder, a bounded task, and a surface permission map from [the previous lesson](02-01-same-model-different-surfaces.md).
 

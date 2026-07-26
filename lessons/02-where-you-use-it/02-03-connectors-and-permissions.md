@@ -1,10 +1,12 @@
 ---
 summary: Use a connector with the minimum scope, start read-only, and preserve source evidence without granting hidden authority.
 requires: [02-01-same-model-different-surfaces, 02-02-the-agentic-workspace]
-infographics: []
+infographics: [what-a-connector-is]
 ---
 
 # Reach another system safely
+
+![An AI tool reaches external services through a connector with explicit scope and permission controls.](/infographics/what-a-connector-is.webp)
 
 **Requires:** A named external system, a specific task, and an account you are authorized to use.
 

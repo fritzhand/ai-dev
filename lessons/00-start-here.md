@@ -1,10 +1,12 @@
 ---
 summary: Choose the landing-page or app route and prove that its accounts, source material, and local tools are ready.
 requires: []
-infographics: []
+infographics: [the-twelve-tool-map]
 ---
 
 # Start here: pick a route and check the ground
+
+![Twelve course tools are grouped by thinking and building, writing and keeping work, landing-page work, and app work.](/infographics/the-twelve-tool-map.webp)
 
 **Requires:** Nothing. This is the first page.
 

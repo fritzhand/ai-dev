@@ -4,5 +4,13 @@
   "siteBase": "https://fritzhand.github.io/ai-dev/",
   "repo": "https://github.com/fritzhand/ai-dev",
   "ogAlt": "AI Dev — a project-first course for building a landing page and an app with AI.",
+  "author": {
+    "name": "Jeremy Fritzhand",
+    "role": "Built and maintained by",
+    "avatar": "jeremy.webp",
+    "github": "https://github.com/fritzhand",
+    "linkedin": "https://www.linkedin.com/in/fritzhand/"
+  },
+  "footerNote": "Every company, customer, metric and project used as an example in this course is invented. Nothing here is drawn from any real client engagement.",
   "analyticsId": ""
 }

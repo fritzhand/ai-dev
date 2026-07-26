@@ -610,9 +610,10 @@ The source inventory contains a corrected count:
 That produces 31 candidate course visuals: 18 existing, five deck-derived
 regenerations, the Rapid App Development Workflow, and seven new gaps.
 
-The current generated infographics are working source, not automatically
-publishable assets. Known text defects and claims requiring factual review mean
-each one has a QA or regeneration gate.
+Production update, 2026-07-25: all 31 candidates have passed their QA or
+regeneration gate and now have reviewed 1200×675 assets, retained source PNGs,
+standalone prompt specifications, lesson placements, and a public
+[`reference/infographics.md`](../reference/infographics.md) library.
 
 The complete inventory and production prompts follow in section 12.
 

@@ -1,10 +1,12 @@
 ---
 summary: Inspect changes, stage only intended files, create a meaningful commit, and understand recovery before discarding work.
 requires: [03-01-terminal-and-command-approval, 03-02-editor-ide-and-file-tree]
-infographics: []
+infographics: [what-git-is]
 ---
 
 # Commit, diff, branch, restore
+
+![A Git timeline shows a clean commit, a change, a diff, and a second commit.](/infographics/what-git-is.webp)
 
 **Requires:** A Git repository containing a small intentional change and no unknown work you are prepared to overwrite.
 

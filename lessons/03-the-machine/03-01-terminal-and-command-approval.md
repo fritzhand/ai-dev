@@ -1,10 +1,12 @@
 ---
 summary: Read a terminal command's target and side effects before allowing it to inspect, install, change, or delete anything.
 requires: [00-start-here]
-infographics: []
+infographics: [what-the-terminal-is]
 ---
 
 # Read what the terminal will do
+
+![A terminal shows three example commands and a checklist for reviewing the command, folder, and target.](/infographics/what-the-terminal-is.webp)
 
 **Requires:** A terminal window and the exact project-folder path from [Start here](../00-start-here.md).
 

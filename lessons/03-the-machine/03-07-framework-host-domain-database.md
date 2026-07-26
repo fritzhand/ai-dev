@@ -1,10 +1,14 @@
 ---
 summary: Place the browser, framework, repository, deployment host, domain, authentication, and database in the correct layers.
 requires: [02-01-same-model-different-surfaces, 03-03-node-packages-and-runtimes, 03-05-github-repositories-and-review]
-infographics: []
+infographics: [how-all-of-this-fits-together, what-a-database-is]
 ---
 
 # See the whole web stack
+
+![A person, AI tool, local project, online services, and end users are connected in layers with an approval gate.](/infographics/how-all-of-this-fits-together.webp)
+
+![A published site is contrasted with an app that stores and retrieves persistent records from a database.](/infographics/what-a-database-is.webp)
 
 **Requires:** A proposed landing page or application and the list of services it may use.
 

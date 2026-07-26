@@ -234,7 +234,8 @@ const profile = mkdtempSync(join(tmpdir(), "og-"));
 const chrome = (args) => {
   const result = spawnSync(chromes[0], [
     "--headless=new", "--disable-gpu", "--no-sandbox", "--hide-scrollbars",
-    "--disable-background-networking", "--disable-default-apps", "--disable-extensions", "--no-first-run",
+    "--disable-background-networking", "--disable-default-apps", "--disable-extensions",
+    "--disable-component-update", "--disable-crash-reporter", "--disable-breakpad", "--no-first-run",
     `--user-data-dir=${profile}`, "--force-device-scale-factor=1", ...args,
   ], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], timeout: 12000, killSignal: "SIGKILL" });
   /* Some macOS Chrome builds finish the requested headless work but keep a

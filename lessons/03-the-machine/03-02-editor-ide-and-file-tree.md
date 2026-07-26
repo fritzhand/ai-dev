@@ -1,10 +1,12 @@
 ---
 summary: Open one project root and locate source, assets, configuration, terminal, version-control changes, and agent activity.
 requires: [00-start-here]
-infographics: []
+infographics: [editors-ide-and-what-agentic-means]
 ---
 
 # Work in a project folder
+
+![Chat, an editor, and an agent are compared by their access to project files and commands.](/infographics/editors-ide-and-what-agentic-means.webp)
 
 **Requires:** The exact folder approved in [Start here](../00-start-here.md) and an editor or project-aware coding workspace.
 

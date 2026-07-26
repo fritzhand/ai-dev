@@ -1,10 +1,12 @@
 ---
 summary: Choose model capability and reasoning effort from task difficulty, evidence, latency, and cost instead of habit.
 requires: [01-01-models-predict-text]
-infographics: []
+infographics: [which-model-should-i-use]
 ---
 
 # Pick a model for the job
+
+![Model capability and thinking effort are shown as separate controls, followed by a test-and-adjust loop.](/infographics/which-model-should-i-use.webp)
 
 **Requires:** A real task, a useful example input, and an observable check for a good result.
 

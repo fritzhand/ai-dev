@@ -1,10 +1,16 @@
 ---
 summary: Distinguish training, weights, fine-tuning, and alignment without treating a model as a searchable document store.
 requires: [01-01-models-predict-text]
-infographics: []
+infographics: [how-a-model-gets-made, what-weights-actually-means, the-loops-that-make-models-improve]
 ---
 
 # How models are made
+
+![A representative four-stage path moves from prepared data through pre-training, post-training, and evaluation.](/infographics/how-a-model-gets-made.webp)
+
+![Training adjusts numerical weights, which are then loaded to calculate outputs, with open-weight and hosted access compared.](/infographics/what-weights-actually-means.webp)
+
+![Four feedback loops use people, model critiques, verifiable checks, and filtered synthetic examples.](/infographics/the-loops-that-make-models-improve.webp)
 
 **Requires:** The distinction between a plausible model output and sourced truth from [the previous lesson](01-01-models-predict-text.md).
 

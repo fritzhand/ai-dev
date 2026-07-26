@@ -1,10 +1,12 @@
 ---
 summary: Distinguish local Git from GitHub, confirm repository visibility, push the intended branch, and review proposed changes before merge.
 requires: [03-04-git-save-points]
-infographics: []
+infographics: [git-and-github-are-not-the-same]
 ---
 
 # Put history online
+
+![Local Git history is connected by push and pull arrows to a repository hosted on GitHub.](/infographics/git-and-github-are-not-the-same.webp)
 
 **Requires:** A local repository with a reviewed commit, a GitHub account, and an explicit decision about repository visibility.
 

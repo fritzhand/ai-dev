@@ -20,8 +20,9 @@ edit that directory by hand.
   repository-relative Markdown path.
 - `parts` supplies the ordered lesson groups and their sidebar labels.
 
-`site.config.json` holds publishing metadata. Its URL must include the GitHub
-Pages base path (`/ai-dev/`). Leave `analyticsId` empty to omit analytics.
+`site.config.json` holds publishing metadata, author/footer details, and the
+optional analytics identifier. Its URL must include the GitHub Pages base path
+(`/ai-dev/`). Leave `analyticsId` empty to omit analytics.
 
 Every Markdown file under a configured content root is published:
 

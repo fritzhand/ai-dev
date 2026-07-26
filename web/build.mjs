@@ -48,6 +48,8 @@ const BLOB_URL = `${REPO_URL}/blob/main/`;
 const TREE_URL = `${REPO_URL}/tree/main/`;
 const OG_IMAGE = "og.png";
 const OG_ALT = SITE.ogAlt || `${SITE_NAME} — ${TAGLINE}`;
+const AUTHOR = SITE.author || {};
+const FOOTER_NOTE = SITE.footerNote || "";
 const ANALYTICS_ID = /^G-[A-Z0-9]+$/.test(SITE.analyticsId || "") ? SITE.analyticsId : "";
 if (SITE.analyticsId && !ANALYTICS_ID) {
   fail(`site.config.json: analyticsId "${SITE.analyticsId}" is not a GA4 measurement ID`);
@@ -781,6 +783,7 @@ const ICONS = {
   up: icon('<path d="m18 15-6-6-6 6"/>'),
   arrow: icon('<path d="M5 12h14m-6-6 6 6-6 6"/>'),
   github: icon('<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3-.3 6.2-1.5 6.2-6.8A5.3 5.3 0 0 0 19.8 5a4.9 4.9 0 0 0-.1-3.7S18.5.8 16 2.5a13 13 0 0 0-7 0C6.5.8 5.3 1.3 5.3 1.3A4.9 4.9 0 0 0 5.2 5a5.3 5.3 0 0 0-1.4 3.7c0 5.3 3.2 6.5 6.2 6.8a3.4 3.4 0 0 0-1 2.6V22"/>'),
+  linkedin: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 5.5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0ZM3.3 8.9h3.4V21H3.3V8.9Zm5.53 0h3.26v1.65h.05c.45-.86 1.56-1.77 3.22-1.77 3.44 0 4.08 2.27 4.08 5.22V21h-3.4v-5.32c0-1.27-.02-2.9-1.77-2.9-1.77 0-2.04 1.38-2.04 2.81V21h-3.4V8.9Z"/></svg>',
   mark: icon('<path d="M4 5h7v6H4zM13 5h7v6h-7zM4 13h7v6H4z"/><path d="m14 16 2 2 4-5"/>'),
   compass: icon('<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/>'),
   book: icon('<path d="M12 7v13"/><path d="M3 18V4h5a4 4 0 0 1 4 3 4 4 0 0 1 4-3h5v14h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3Z"/>'),
@@ -943,10 +946,24 @@ ${tocHtml ? `<div class="content-with-toc"><div>${body}</div>${tocHtml}</div>` :
 </main>
 </div>
 <footer class="footer"><div class="footer-inner">
-  <div><strong>${esc(SITE_NAME)}</strong><p class="footer-note">${esc(COURSE.description || TAGLINE)}</p></div>
+  <div class="footer-author">
+    <img class="author-avatar" src="${asset(root, AUTHOR.avatar || "jeremy.webp")}" alt="" width="48" height="48" loading="lazy">
+    <div class="author-meta">
+      <div class="author-role">${esc(AUTHOR.role || "Built and maintained by")}</div>
+      <div class="author-nameline">
+        <span class="author-name">${esc(AUTHOR.name || "Jeremy Fritzhand")}</span>
+        <span class="author-links">
+          <a href="${esc(AUTHOR.github || "https://github.com/fritzhand")}" target="_blank" rel="noopener" aria-label="${esc(AUTHOR.name || "Jeremy Fritzhand")} on GitHub" title="GitHub">${ICONS.github}</a>
+          <a href="${esc(AUTHOR.linkedin || "https://www.linkedin.com/in/fritzhand/")}" target="_blank" rel="noopener" aria-label="${esc(AUTHOR.name || "Jeremy Fritzhand")} on LinkedIn" title="LinkedIn">${ICONS.linkedin}</a>
+        </span>
+      </div>
+    </div>
+  </div>
+  <p class="footer-note">${esc(FOOTER_NOTE)}</p>
   <div class="f-links">
     <a href="${root}index.html">Home</a>
-    <a href="${root}prompts/index.html">Prompts</a>
+    <a href="${root}lessons/00-start-here.html">Quickstart</a>
+    <a href="${root}lessons/06-doing-it-well/06-02-secrets-and-environment-variables.html">Safety</a>
     <a href="${REPO_URL}" target="_blank" rel="noopener">Repository</a>
     <span>MIT licensed</span>
   </div>

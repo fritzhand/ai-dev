@@ -1,10 +1,12 @@
 ---
 summary: Route instructors to the strict landing-page workshop, milestone-led learner-chosen app project, recovery material, and maintenance checks.
 requires: []
-infographics: [landing-page-workshop-flow, rapid-app-development-workflow]
+infographics: [the-twelve-tool-map, landing-page-workshop-flow, rapid-app-development-workflow]
 ---
 
 # Instructor guide
+
+![Twelve course tools are grouped by thinking and building, writing and keeping work, landing-page work, and app work.](/infographics/the-twelve-tool-map.webp)
 
 AI Dev has two teaching formats:
 

@@ -1,10 +1,12 @@
 ---
 summary: Separate a model's plausible continuation from evidence you can trust.
 requires: []
-infographics: []
+infographics: [what-this-thing-actually-is]
 ---
 
 # What a model actually does
+
+![A next-text prediction loop is flanked by useful capabilities and by things fluency cannot guarantee.](/infographics/what-this-thing-actually-is.webp)
 
 **Requires:** One answer produced by a language model.
 

@@ -1,10 +1,12 @@
 ---
 summary: Prepare readable Markdown, predictable filenames, useful image alternatives, and relative paths that survive a build and deploy.
 requires: [03-02-editor-ide-and-file-tree]
-infographics: []
+infographics: [what-markdown-is]
 ---
 
 # Give the AI usable material
+
+![The same project plan is shown as raw Markdown and as a rendered document.](/infographics/what-markdown-is.webp)
 
 **Requires:** A project source folder containing text or images you are allowed to use.
 

@@ -1,10 +1,12 @@
 ---
 summary: Scaffold Astro and implement the approved landing page in small, running, reviewable milestones.
 requires: [04-04-approve-the-implementation-plan, 03-03-node-packages-and-runtimes, 03-04-git-save-points]
-infographics: [rapid-app-development-workflow]
+infographics: [what-astro-does, rapid-app-development-workflow]
 ---
 
 # Build the Astro site in milestones
+
+![Astro turns project pages, components, content, styles, and images into a published website.](/infographics/what-astro-does.webp)
 
 **Requires:** An approved implementation plan, a clean Git status, Node and npm
 working, and a known rollback commit.

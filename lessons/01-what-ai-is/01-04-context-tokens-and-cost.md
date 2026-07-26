@@ -1,10 +1,12 @@
 ---
 summary: Build a small working context, understand token-based usage, and prevent long threads from obscuring the current task.
 requires: [01-01-models-predict-text]
-infographics: []
+infographics: [where-your-words-actually-go]
 ---
 
 # What the model is holding
+
+![A request moves through context assembly, tokenisation, and model output, with caching and retrieval shown as variable.](/infographics/where-your-words-actually-go.webp)
 
 **Requires:** A task with at least two possible source files or pieces of prior conversation.
 

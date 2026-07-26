@@ -9,6 +9,11 @@ accessibility, and rights review before publication.
 
 **Prepared:** 2026-07-25
 
+**Production status:** All 31 visuals were regenerated or constructed, reviewed,
+exported at 1200×675, and published on 2026-07-25. The public
+[infographic library](../reference/infographics.md) links every visual to its
+standalone prompt and review specification.
+
 ## How to use this file
 
 Each visual has a production prompt, alt text, caption, and review gate. The

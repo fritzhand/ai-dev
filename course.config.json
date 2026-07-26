@@ -40,6 +40,13 @@
       "description": "Open the smallest explanation needed for the current step.",
       "start": "lessons/INDEX.md",
       "kind": "reference"
+    },
+    {
+      "id": "infographics",
+      "title": "Browse the infographics",
+      "description": "See all 31 teaching visuals and open each production prompt and review record.",
+      "start": "reference/infographics.md",
+      "kind": "reference"
     }
   ],
   "parts": [

@@ -23,6 +23,8 @@ You do not need to read this course from top to bottom.
 5. [Project: an app](05-project-app/INDEX.md) — a reusable PRD-to-production app route.
 6. [Doing it well](06-doing-it-well/INDEX.md) — approval gates, secrets, context, evals, cost, rollback, and maintenance.
 
+The [infographic library](../reference/infographics.md) collects all 31 course visuals and links each one to its production prompt and review record.
+
 ## For instructors
 
 - [Instructor guide](../instructor/README.md)

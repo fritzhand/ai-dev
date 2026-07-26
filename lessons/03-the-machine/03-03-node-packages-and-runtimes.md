@@ -1,10 +1,12 @@
 ---
 summary: Identify the runtime, package manager, manifest, lockfile, install step, and project scripts before changing dependencies.
 requires: [03-01-terminal-and-command-approval, 03-02-editor-ide-and-file-tree]
-infographics: []
+infographics: [what-node-is]
 ---
 
 # Node, npm, Bun, and dependencies
+
+![A JavaScript file passes through the Node.js runtime to produce a build, server, or tool result.](/infographics/what-node-is.webp)
 
 **Requires:** A JavaScript project folder with its `package.json`, README, and any existing lockfile.
 

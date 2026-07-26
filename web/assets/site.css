@@ -147,7 +147,6 @@ img, svg, video { max-width: 100%; height: auto; }
   .brand-mark { width: 26px; height: 26px; }
   .brand-mark svg { width: 16px; height: 16px; }
   .brand-name { font-size: 0.8rem; letter-spacing: 0; line-height: 1.1; }
-  .brand-name .thin { display: none; }
 }
 
 /* ---------- animated hamburger ----------

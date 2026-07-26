@@ -1,10 +1,12 @@
 ---
 summary: Choose between chat, desktop, IDE, terminal, and API surfaces by what each can see and change.
 requires: [01-01-models-predict-text]
-infographics: []
+infographics: [the-same-model-four-places]
 ---
 
 # Chat, desktop, IDE, terminal, API
+
+![Chat, connected apps, IDE agents, and APIs are compared by context, tools, and permissions.](/infographics/the-same-model-four-places.webp)
 
 **Requires:** A task you might give to an AI tool and the [model-output mental model](../01-what-ai-is/01-01-models-predict-text.md).
 

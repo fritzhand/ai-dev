@@ -17,6 +17,7 @@ The material works for a learner working alone and for an instructor teaching a 
 - [Teach the landing-page workshop](instructor/landing-page-120-minutes.md)
 - [Teach the app project](instructor/app-project.md)
 - [Browse the reference](lessons/INDEX.md)
+- [Browse all 31 infographics and their prompts](reference/infographics.md)
 
 ## The method
 
