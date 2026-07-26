@@ -18,7 +18,7 @@ non-owner, differentiator, and sign-out checks in production.
 Stop if the production database contains unbacked-up data, the tested commit is
 unclear, local secrets will be copied into Git, or the owner has not approved a
 production external write. Read the pinned starter's
-[deployment guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/10-deployment.md)
+[deployment guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/10-deployment.md)
 and Supabase's
 [environment guidance](https://supabase.com/docs/guides/deployment/managing-environments)
 before configuring the target.
@@ -30,12 +30,12 @@ before configuring the target.
    callback, database clients, and eval evidence without changing GitHub,
    Vercel, Supabase, Google, or the production database.
 3. Use the pinned
-   [database guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md)
+   [database guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md)
    to distinguish the pooled/serverless application connection from the direct
    migration connection. Verify the current Supabase-provided strings rather
    than editing one by guess.
 4. The pinned
-   [`package.json`](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/package.json)
+   [`package.json`](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/package.json)
    defines `build` and `db:migrate` as separate scripts. A source deployment
    therefore does not prove that a migration ran unless the reviewed release
    configuration explicitly runs it.
@@ -84,7 +84,7 @@ passes.
 7. Use two production test identities to prove non-owner denial without using
    real user data.
 8. Confirm direct queries still match the pinned
-   [`src/db/index.ts` guardrail](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/db/index.ts):
+   [`src/db/index.ts` guardrail](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/db/index.ts):
    server authentication plus owner scope.
 9. Record deploy, migration, configuration, evidence, and rollback points.
 

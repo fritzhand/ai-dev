@@ -9,7 +9,7 @@ AI Dev is a beginner-friendly curriculum for learning to build with AI. It must 
 
 The projects are the spine of the course. Reference lessons exist to unblock project work, not to form a wall of theory before a learner can build.
 
-The landing-page project uses Astro, GitHub, and Vercel. The app project starts from a learner's own idea and PRD. It references the pinned `KRSHH/nextjs-template` baseline, Supabase, and Google sign-in. There is no canonical teaching app.
+The landing-page project uses Astro, GitHub, and Vercel. The app project starts from a learner's own idea and PRD. It references the pinned `KRSHH/standard-saas-starter` baseline, Supabase, and Google sign-in. There is no canonical teaching app.
 
 ## Read in this order
 

@@ -5,7 +5,7 @@ summary: Decide which tested starter systems the learner's PRD requires and what
 # Starter map: keep, change, remove, defer
 
 Baseline:
-`KRSHH/nextjs-template@e887b0cc9d380576aa3318bf8c095afbc3d768cb`
+`KRSHH/standard-saas-starter@e887b0cc9d380576aa3318bf8c095afbc3d768cb`
 
 | Surface/system | Decision | PRD reason | Required cleanup | Verification |
 | --- | --- | --- | --- | --- |

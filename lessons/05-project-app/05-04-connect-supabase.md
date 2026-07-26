@@ -18,8 +18,8 @@ connects, a test signup creates a profile, and Git contains no secret.
 ## Step 0 — Check the ground
 
 Read the pinned starter's
-[environment guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/02-environment-variables.md)
-and [database guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md).
+[environment guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/02-environment-variables.md)
+and [database guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md).
 Stop if you are using someone else's project, a production database with data,
 or a value copied from an untrusted message.
 

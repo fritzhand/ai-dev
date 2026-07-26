@@ -23,7 +23,7 @@ The course has two practical spines:
 
 1. Build and deploy a landing page with Astro, GitHub, and Vercel.
 2. Build and deploy an application from
-   [`KRSHH/nextjs-template`](https://github.com/KRSHH/nextjs-template), using
+   [`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter), using
    Supabase and adding Google sign-in.
 
 The same material must work in two modes:
@@ -369,7 +369,9 @@ The instructor pack still needs:
 ### Tested baseline
 
 The audit used
-[`KRSHH/nextjs-template` commit `e887b0cc9d380576aa3318bf8c095afbc3d768cb`](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb),
+[`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter)
+at
+[commit `e887b0cc9d380576aa3318bf8c095afbc3d768cb`](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb),
 dated 2026-07-22 and checked on 2026-07-25. The repository currently has no
 tagged release. Course material must record the tested commit and re-run the
 maintenance check before a workshop; pointing only at moving `main` is not
@@ -382,7 +384,7 @@ the template source into the course.
 The template is MIT licensed. A learner who copies its source preserves the
 upstream licence and notice. The course credits it as:
 
-> App starter: KRSHH/nextjs-template, MIT, tested at commit `e887b0c`.
+> App starter: KRSHH/standard-saas-starter, MIT, tested at commit `e887b0c`.
 
 Until upstream publishes a tag, the setup lesson should clone the repository,
 switch to the tested commit, create the learner’s own main branch, and keep the
@@ -768,11 +770,11 @@ requirement, and OCR/fact/accessibility checks.
 
 ### Current primary sources
 
-- [KRSHH/nextjs-template pinned audit commit](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb)
-- [KRSHH template README at the tested commit](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/README.md)
-- [KRSHH authentication guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/04-authentication.md)
-- [KRSHH environment-variable guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/02-environment-variables.md)
-- [KRSHH database guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md)
+- [Pinned standard SaaS starter audit commit](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb)
+- [KRSHH template README at the tested commit](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/README.md)
+- [KRSHH authentication guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/04-authentication.md)
+- [KRSHH environment-variable guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/02-environment-variables.md)
+- [KRSHH database guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md)
 - [Supabase: Google login](https://supabase.com/docs/guides/auth/social-login/auth-google)
 - [Supabase: database security overview](https://supabase.com/docs/guides/database/overview)
 - [Astro: getting started](https://docs.astro.build/en/getting-started/)

@@ -68,8 +68,8 @@ These sources are examples from one provider. The course's general decision meth
 
 | Primary source | What was checked |
 | --- | --- |
-| [`KRSHH/nextjs-template`](https://github.com/KRSHH/nextjs-template) | Upstream repository, documentation, licence, and moving default branch. |
-| [Tested commit `e887b0c`](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb) | Course audit baseline dated 2026-07-22 and reviewed on 2026-07-25. Exact dependency and runtime state comes from this commit. |
+| [`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter) | Upstream repository, documentation, licence, and moving default branch. |
+| [Tested commit `e887b0c`](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb) | Course audit baseline dated 2026-07-22 and reviewed on 2026-07-25. Exact dependency and runtime state comes from this commit. |
 
 ## Maintenance rule
 

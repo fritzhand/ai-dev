@@ -62,7 +62,7 @@ This gate has two explicit stops:
    to its identifier and mutation.
 5. Perform a real Google sign-in, callback, protected route, refresh, and
    sign-out. The pinned
-   [`e2e/auth.spec.ts`](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/e2e/auth.spec.ts)
+   [`e2e/auth.spec.ts`](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/e2e/auth.spec.ts)
    checks local auth pages and guards, not a real provider redirect.
 6. Review the complete workflow on a narrow viewport and by keyboard.
 7. Record failing evidence before changing code, then return to the second

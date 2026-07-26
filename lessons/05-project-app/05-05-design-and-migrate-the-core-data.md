@@ -28,9 +28,9 @@ Do not encode an unresolved product decision in SQL.
 Supabase documents that service/privileged access can bypass RLS; review the
 [RLS guide](https://supabase.com/docs/guides/database/postgres/row-level-security)
 alongside the pinned starter's
-[database guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md)
+[database guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md)
 and exact
-[`src/db/index.ts`](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/db/index.ts)
+[`src/db/index.ts`](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/db/index.ts)
 (checked 2026-07-25).
 
 ```prompt

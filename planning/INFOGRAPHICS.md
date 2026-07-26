@@ -615,7 +615,7 @@ user is. Authorisation decides what that user may do.” Bottom warning: “Neve
 expose service-role or database credentials to the browser.”
 
 **Guardrail:** Freeze this visual against the exact
-`KRSHH/nextjs-template` commit used by the course. Google is an available
+`KRSHH/standard-saas-starter` commit used by the course. Google is an available
 provider, not automatically configured. Do not imply that RLS protects direct
 Drizzle queries made through the template’s privileged database connection.
 

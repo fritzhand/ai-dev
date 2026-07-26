@@ -43,7 +43,8 @@ Tested course revision:
 `e887b0cc9d380576aa3318bf8c095afbc3d768cb`
 
 Source:
-[`KRSHH/nextjs-template`](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb),
+[`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter),
+[commit `e887b0c`](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb),
 MIT, audited 2026-07-25.
 
 Create and print a unique temporary directory. Confirm the printed path starts
@@ -58,8 +59,8 @@ printf '%s\n' "$AI_DEV_AUDIT_ROOT"
 Clone into that exact directory. Do not substitute an existing project folder:
 
 ```bash
-git clone https://github.com/KRSHH/nextjs-template.git "$AI_DEV_AUDIT_ROOT/nextjs-template"
-cd "$AI_DEV_AUDIT_ROOT/nextjs-template"
+git clone https://github.com/KRSHH/standard-saas-starter.git "$AI_DEV_AUDIT_ROOT/standard-saas-starter"
+cd "$AI_DEV_AUDIT_ROOT/standard-saas-starter"
 git switch --detach e887b0cc9d380576aa3318bf8c095afbc3d768cb
 git rev-parse HEAD
 bun install

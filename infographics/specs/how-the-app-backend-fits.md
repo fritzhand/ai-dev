@@ -49,6 +49,6 @@ Reviewed 2026-07-25:
 
 Primary checks:
 
-- [Pinned template revision](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb)
+- [Pinned template revision](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb)
 - [Supabase row-level security](https://supabase.com/docs/guides/database/postgres/row-level-security)
 - [Supabase server-side authentication](https://supabase.com/docs/guides/auth/server-side/nextjs)

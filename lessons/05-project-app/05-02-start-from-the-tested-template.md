@@ -18,7 +18,7 @@ learner's repository.
 Confirm the destination does not contain work. Run `git --version`,
 `bun --version`, and `node --version`. The audited starter declares Bun 1.3.0
 and Node `>=20.9.0`; recheck the pinned
-[`package.json`](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/package.json)
+[`package.json`](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/package.json)
 before a later cohort. This baseline was audited on 2026-07-25. The commands
 below use `my-app/` as a concrete example. Confirm that name does not exist
 before continuing.
@@ -35,7 +35,7 @@ begin until this gate passes.
 1. Clone without checking out the moving default branch:
 
    ```bash
-   git clone --no-checkout https://github.com/KRSHH/nextjs-template.git my-app
+   git clone --no-checkout https://github.com/KRSHH/standard-saas-starter.git my-app
    cd my-app
    ```
 
@@ -64,14 +64,14 @@ begin until this gate passes.
    `git remote -v` names only the intended repositories.
 6. Read and preserve `LICENSE`. Credit the baseline:
 
-   > App starter: KRSHH/nextjs-template, MIT, tested at commit `e887b0c`.
+   > App starter: KRSHH/standard-saas-starter, MIT, tested at commit `e887b0c`.
 
 7. Run `bun install`, then `bun run check` and `bun run test`. Run
    `bun run setup` to create the ignored local environment file, but do not add
    credentials yet and do not apply migrations.
 8. Push only after reviewing the remote and baseline diff.
 
-The [pinned starter README](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/README.md)
+The [pinned starter README](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/README.md)
 is the source for the starter scripts. GitHub says a repository created with
 “Use this template” starts from the template's default branch (or all
 branches), with new unrelated history. That flow does not select this audited

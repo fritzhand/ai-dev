@@ -16,11 +16,11 @@ route access, and sign-out locally and in production.
 ## Step 0 — Check the ground
 
 At the tested commit, the
-[`oauth-providers.ts`](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/lib/auth/oauth-providers.ts)
+[`oauth-providers.ts`](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/lib/auth/oauth-providers.ts)
 registry lists Google and the
-[`/auth/callback` route](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/app/auth/callback/route.ts)
+[`/auth/callback` route](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/app/auth/callback/route.ts)
 can exchange an OAuth code, but
-[`auth-form.tsx`](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/components/auth/auth-form.tsx)
+[`auth-form.tsx`](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/components/auth/auth-form.tsx)
 executes email/password only and has no `signInWithOAuth` call. Treat the button
 as implementation work, not as an already working starter feature. These files
 were checked on 2026-07-25.
@@ -30,7 +30,7 @@ were checked on 2026-07-25.
 1. Read Supabase's
    [Google login guide](https://supabase.com/docs/guides/auth/social-login/auth-google)
    and the pinned starter's
-   [authentication guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/04-authentication.md).
+   [authentication guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/04-authentication.md).
 2. Record the intended Google account/project, consent-facing identity,
    application origins, Supabase provider callback shown in the dashboard,
    local and production app callbacks, and recovery route. Do not change either

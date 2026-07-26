@@ -27,9 +27,9 @@ If code uses the pinned starter's direct Drizzle `db`, it is privileged and can
 bypass RLS. Authenticate on the server first and scope every select, update,
 and delete by the authenticated owner's ID. Never accept a client-supplied
 owner ID as proof. This follows the pinned
-[`src/db/index.ts`](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/db/index.ts),
+[`src/db/index.ts`](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/db/index.ts),
 the starter's
-[database guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md),
+[database guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md),
 and Supabase's
 [RLS guide](https://supabase.com/docs/guides/database/postgres/row-level-security).
 

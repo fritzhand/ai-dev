@@ -67,9 +67,9 @@ This project is milestone-led. Do not promise a fixed two-hour completion.
 ## Non-negotiable database lesson
 
 The pinned
-[`src/db/index.ts`](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/db/index.ts)
+[`src/db/index.ts`](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/db/index.ts)
 uses a privileged Postgres role that can bypass RLS, as the pinned
-[database guide](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md)
+[database guide](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/docs/03-database.md)
 also records. Teach two separate controls and review Supabase's
 [RLS guide](https://supabase.com/docs/guides/database/postgres/row-level-security):
 
@@ -83,9 +83,9 @@ safe. Require a two-user regression test.
 ## Non-negotiable auth lesson
 
 The pinned source has an
-[OAuth provider list](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/lib/auth/oauth-providers.ts)
-and [callback](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/app/auth/callback/route.ts),
-but its [sign-in form](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/components/auth/auth-form.tsx)
+[OAuth provider list](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/lib/auth/oauth-providers.ts)
+and [callback](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/app/auth/callback/route.ts),
+but its [sign-in form](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/components/auth/auth-form.tsx)
 does not execute Google OAuth. Learners must implement and manually test the
 button, `signInWithOAuth`, provider callback, app callback, session, profile,
 protected route, and sign-out locally and in production.

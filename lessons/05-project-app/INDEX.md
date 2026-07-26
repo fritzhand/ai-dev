@@ -13,7 +13,9 @@ You choose the app. The course supplies the sequence and the review gates:
 ![A two-row app workflow moves from a PRD through human-reviewed planning and a baseline commit, then loops through bounded builds, optional data and sign-in, testing, diff review, and commits.](/infographics/rapid-app-development-workflow.webp)
 
 The project references
-[`KRSHH/nextjs-template` at commit `e887b0c`](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb).
+[`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter)
+at tested
+[commit `e887b0c`](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb).
 It does not define your user, feature, or schema for you.
 
 | Step | Lesson | Evidence |

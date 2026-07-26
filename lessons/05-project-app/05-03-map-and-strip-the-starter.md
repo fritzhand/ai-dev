@@ -24,11 +24,11 @@ without a baseline makes every failure ambiguous.
 1. Map PRD needs to the starter's routes, components, packages, environment
    variables, API routes, tests, and background requests without editing.
 2. Use the pinned
-   [README](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/README.md)
+   [README](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/README.md)
    to inventory the supplied systems. At this commit, the
-   [notification bell](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/components/dashboard/notification-bell.tsx)
+   [notification bell](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/components/dashboard/notification-bell.tsx)
    polls notification routes, while the
-   [production rate limiter](https://github.com/KRSHH/nextjs-template/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/lib/security/rate-limit.ts)
+   [production rate limiter](https://github.com/KRSHH/standard-saas-starter/blob/e887b0cc9d380576aa3318bf8c095afbc3d768cb/src/lib/security/rate-limit.ts)
    throws when its required Upstash configuration is absent. If the learner
    keeps that surface, they must configure and test the whole dependency path.
 

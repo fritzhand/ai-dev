@@ -27,8 +27,8 @@ The two-hour workshop finishes at a reviewed Vercel URL backed by reviewed GitHu
 
 The app belongs in its own learner repository and starts from:
 
-- [`KRSHH/nextjs-template`](https://github.com/KRSHH/nextjs-template)
-- tested commit [`e887b0cc9d380576aa3318bf8c095afbc3d768cb`](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb)
+- [`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter)
+- tested commit [`e887b0cc9d380576aa3318bf8c095afbc3d768cb`](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb)
 - upstream commit date: 2026-07-22
 - course audit date: 2026-07-25
 - upstream licence: MIT; preserve its notice

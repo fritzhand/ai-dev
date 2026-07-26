@@ -120,8 +120,9 @@ allowed to consume the two-hour core workshop.
 ### App route
 
 The app project starts only after the learner writes and approves a PRD. It
-uses the audited
-[`KRSHH/nextjs-template` baseline](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb),
+uses [`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter)
+at audited
+[commit `e887b0c`](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb),
 then strips, keeps, or defers starter systems according to that PRD.
 
 ```text
@@ -401,9 +402,9 @@ deploys GitHub Pages.
 ## App template baseline
 
 The app lessons reference
-[`KRSHH/nextjs-template`](https://github.com/KRSHH/nextjs-template) at audited
+[`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter) at audited
 commit
-[`e887b0cc9d380576aa3318bf8c095afbc3d768cb`](https://github.com/KRSHH/nextjs-template/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb).
+[`e887b0cc9d380576aa3318bf8c095afbc3d768cb`](https://github.com/KRSHH/standard-saas-starter/commit/e887b0cc9d380576aa3318bf8c095afbc3d768cb).
 
 The course preserves its MIT notice and teaches learners to inspect the exact
 pinned source before deciding what to keep, change, remove, or defer. Moving
@@ -474,7 +475,7 @@ gates, and learner evidence. Adapted infographic specifications preserve their
 source and recreation notes individually.
 
 The app route also adapts the MIT-licensed
-[`KRSHH/nextjs-template`](https://github.com/KRSHH/nextjs-template) at the pinned
+[`KRSHH/standard-saas-starter`](https://github.com/KRSHH/standard-saas-starter) at the pinned
 commit recorded above. Learner projects must preserve the notices required by
 the source they use.
 
